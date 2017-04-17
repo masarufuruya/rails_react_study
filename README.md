@@ -1,0 +1,2 @@
+# rails_react_study
+Rails+WebpackでReactを使った開発を始めるための勉強用リポジトリ
