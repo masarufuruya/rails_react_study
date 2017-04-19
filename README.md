@@ -85,7 +85,9 @@ ES2015の変換が行われるので初回は結構時間かかる
 ## Reactコンポーネントを作る
 以下のコードに書き換える
 
-```frontend/src/javascripts/app.js
+* frontend/src/javascripts/app.js
+
+```
 import React from 'react'
 import { render } from 'react-dom'
 
