@@ -27,8 +27,8 @@ $ source ~/.bashrc
 
 ### パスの追加(zshの場合)
 ```
-echo 'export PATH=$HOME/.nodebrew/current/bin:$PATH' >> ~/.zshrc
-source ~/.zshrc
+$ echo 'export PATH=$HOME/.nodebrew/current/bin:$PATH' >> ~/.zshrc
+$ source ~/.zshrc
 ```
 
 ## Nodeのインストール
