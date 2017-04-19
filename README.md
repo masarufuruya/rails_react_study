@@ -87,7 +87,7 @@ ES2015の変換が行われるので初回は結構時間かかる
 
 ```frontend/src/javascripts/app.js
 import React from 'react'
-
+import { render } from 'react-dom'
 
 class SampleApp extends React.Component {
   render() {
