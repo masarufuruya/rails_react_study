@@ -107,7 +107,8 @@ render(elem, document.getElementById('sample'))
 
 ## 動作を確認する
 ```
-rails s -p 3001
+$ bundle install
+$ rails s -p 3001
 ```
 
 localhost:3001にアクセスしてHello World!と表示されればOK
