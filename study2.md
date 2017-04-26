@@ -64,12 +64,11 @@ render() {
 ```
 render() {
   return (
-	...
-	<button onClick={this.onClickButton}>シャッフル！</button>
-	...
+  ...
+  <button onClick={this.onClickButton}>シャッフル！</button>
+  ...
   )
 }
-//追加
 onClickButton() {
   alert('click')
 }
@@ -89,26 +88,24 @@ https://facebook.github.io/react/docs/events.html#supported-events
 
 ```
 class SampleApp extends React.Component {
-	constructor() {
-		super()
-		this.state = {
-		  //古家,ひろみつさん,野上さん,甲斐さん,今さんのプロフ画像
-		  //今回はDB連携しないのでFBのプロフ画像パスをべた書きしてます
-		  members: [
-		    'https://scontent.xx.fbcdn.net/v/t1.0-9/10398856_961557890590812_5367309510057063574_n.jpg?oh=1115c2533c2c2aa8bb49e7462bba7530&oe=5975AB02',
-		    'https://scontent.xx.fbcdn.net/v/t1.0-1/c12.12.155.155/150497_109074259254709_1577858473_n.jpg?oh=96e0b7a0a54f2581ddf0472a8f29ca23&oe=59C2BA7F',
-		    'https://scontent.xx.fbcdn.net/v/t1.0-1/p160x160/10409197_760558674041065_6413783296232701181_n.jpg?oh=c4a5743a8b354945de2ab86c63f54895&oe=597E2513',
-		    'https://scontent.xx.fbcdn.net/v/t1.0-1/c0.0.160.160/p160x160/13507250_1098841713528589_1463668024516927042_n.jpg?oh=aae631f21bd3f2b5277fade0616dc6fb&oe=598C4C65',
-		    'https://scontent.xx.fbcdn.net/v/t1.0-1/c17.0.320.320/p320x320/319475_288581477916654_1670364288_n.jpg?oh=b6c643665fa0656414db55f691ea99a7&oe=5981D773'
-		  ],
-		  lunchPair: []
-		}
+  constructor() {
+    super()
+    this.state = {
+      members: [
+        'https://scontent.xx.fbcdn.net/v/t1.0-9/10398856_961557890590812_5367309510057063574_n.jpg?oh=1115c2533c2c2aa8bb49e7462bba7530&oe=5975AB02',
+        'https://scontent.xx.fbcdn.net/v/t1.0-1/c12.12.155.155/150497_109074259254709_1577858473_n.jpg?oh=96e0b7a0a54f2581ddf0472a8f29ca23&oe=59C2BA7F',
+        'https://scontent.xx.fbcdn.net/v/t1.0-1/p160x160/10409197_760558674041065_6413783296232701181_n.jpg?oh=c4a5743a8b354945de2ab86c63f54895&oe=597E2513',
+        'https://scontent.xx.fbcdn.net/v/t1.0-1/c0.0.160.160/p160x160/13507250_1098841713528589_1463668024516927042_n.jpg?oh=aae631f21bd3f2b5277fade0616dc6fb&oe=598C4C65',
+        'https://scontent.xx.fbcdn.net/v/t1.0-1/c17.0.320.320/p320x320/319475_288581477916654_1670364288_n.jpg?oh=b6c643665fa0656414db55f691ea99a7&oe=5981D773'
+      ],
+      lunchPair: []
+    }
     this.onClickButton = this.onClickButton.bind(this)
-	}
-	...
-	onClickButton() {
-	  alert(this.state.members[0])
-	}
+  }
+  ...
+  onClickButton() {
+    alert(this.state.members[0])
+  }
 ```
 
 membersの1個目の画像URLが表示されればOK
