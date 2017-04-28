@@ -1,6 +1,6 @@
 # rails_react_study
 
-## 第二回勉強会 単一コンポーネントで状態を管理する
+## 第二回勉強会 単一コンポーネントで状態を管理しよう
 
 ## 前回の勉強会
 https://github.com/masarufuruya/rails_react_study/blob/master/study1.md
