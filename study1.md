@@ -1,5 +1,4 @@
-# rails_react_study
-Rails+WebpackでReactを使った開発を始めるための勉強用リポジトリ
+# 第一回React勉強会 環境構築をしよう
 
 ## ソースコードをクローン
 ```

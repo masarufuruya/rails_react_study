@@ -1,5 +1,11 @@
 # rails_react_study
-Rails+WebpackでReactを使った開発を始めるための勉強用リポジトリ
+
+## 第二回勉強会 単一コンポーネントで状態を管理する
+
+## 前回の勉強会
+https://github.com/masarufuruya/rails_react_study/blob/master/study1.md
+
+前回の勉強会で作った各自のブランチで作業してください
 
 ## 今回作るもの
 ![a71f4dc9e019b67d872587c1be6d4909.gif](https://qiita-image-store.s3.amazonaws.com/0/33823/69f8ab1a-4b73-f711-9245-bbd833bec4ae.gif "a71f4dc9e019b67d872587c1be6d4909.gif")
@@ -9,11 +15,6 @@ Rails+WebpackでReactを使った開発を始めるための勉強用リポジ�
 * Stateを使ってReactコンポーネント内で状態を保持する方法
 * Reactで配列データからリストを作成する方法
 * Stateを更新して再レンダリングさせる方法
-
-## 前回の勉強会
-https://github.com/masarufuruya/rails_react_study/blob/master/study1.md
-
-前回の勉強会で作った各自のブランチで作業してください
 
 ## `webpack -w`をnpmコマンドに登録する
 
@@ -146,7 +147,7 @@ render() {
 次のコードはmembersの配列をループして人数分のリストのJSX配列に作り変えて返す処理です。
 
 ReactではJSXから仮想DOMを生成し、差分のあった所のみ実際のDOMに反映する仕組みになっています。
-li要素のkey属性にユニーク値をつけておくことで、変更が起きた時にすぐにReactがどこに差分があったかを判断できるようになります。
+li要素のkey属性にユニーク値をつけることで、変更が起きた時にすぐにReactがどこに差分があったかを判断できるようになります。
 
 これが無いと全要素を1つずつ確認していく必要がありパフォーマンスが悪くなるので、
 keyにユニーク値を設定することは非常に重要です。
