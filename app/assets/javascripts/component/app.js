@@ -9823,6 +9823,10 @@ module.exports = __webpack_require__(21);
 
 var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
 
+var _app = __webpack_require__(191);
+
+var _app2 = _interopRequireDefault(_app);
+
 var _react = __webpack_require__(86);
 
 var _react2 = _interopRequireDefault(_react);
@@ -22986,6 +22990,12 @@ module.exports = function(isValidElement, throwOnDirectAccess) {
 };
 
 /* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(0)))
+
+/***/ }),
+/* 191 */
+/***/ (function(module, exports) {
+
+throw new Error("Module parse failed: /Users/furuya/dev/rails_react_study/frontend/src/javascripts/template/app.jsx Unexpected token (5:4)\nYou may need an appropriate loader to handle this file type.\n| module.exports = function() {\n|   return (\n|     <div>\n|       <h1>シャッフルランチ</h1>\n|       <button onClick={this.onClickButton}>シャッフル！</button>");
 
 /***/ })
 /******/ ]);
