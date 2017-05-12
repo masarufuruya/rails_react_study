@@ -57,12 +57,12 @@ import { render } from 'react-dom'
 
 ```
 render() {
-	this.listItems = this.state.lunchPair.map((imgUrl) =>
-	  <li key={imgUrl}>
-	    <img style={{width: 120, borderRadius: 10}} src={imgUrl}/>
-	  </li>
-	)
-	return template.call(this)
+  this.listItems = this.state.lunchPair.map((imgUrl) =>
+    <li key={imgUrl}>
+      <img style={{width: 120, borderRadius: 10}} src={imgUrl}/>
+    </li>
+  )
+  return template.call(this)
 }
 ```
 
