@@ -183,7 +183,7 @@ const shuffleBtn = (props) => {
 }
 
 //以下を追加
-shuffleBtn.PropTypes = {
+shuffleBtn.propTypes = {
   onClickButton: React.PropTypes.func.isRequired
 }
 ```
