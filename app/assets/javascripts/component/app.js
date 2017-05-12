@@ -63,12 +63,12 @@
 /******/ 	__webpack_require__.p = "";
 /******/
 /******/ 	// Load entry module and return exports
-/******/ 	return __webpack_require__(__webpack_require__.s = 87);
+/******/ 	return __webpack_require__(__webpack_require__.s = 88);
 /******/ })
 /************************************************************************/
 /******/ ({
 
-/***/ 87:
+/***/ 88:
 /***/ (function(module, exports) {
 
 throw new Error("Module build failed: Error: ENOENT: no such file or directory, open '/Users/furuya/dev/rails_react_study/.babelrc'\n    at Error (native)\n    at Object.fs.openSync (fs.js:549:18)\n    at Object.fs.readFileSync (fs.js:397:15)\n    at ConfigChainBuilder.addConfig (/Users/furuya/dev/rails_react_study/node_modules/babel-core/lib/transformation/file/options/build-config-chain.js:146:32)\n    at ConfigChainBuilder.findConfigs (/Users/furuya/dev/rails_react_study/node_modules/babel-core/lib/transformation/file/options/build-config-chain.js:96:16)\n    at buildConfigChain (/Users/furuya/dev/rails_react_study/node_modules/babel-core/lib/transformation/file/options/build-config-chain.js:61:13)\n    at OptionManager.init (/Users/furuya/dev/rails_react_study/node_modules/babel-core/lib/transformation/file/options/option-manager.js:354:58)\n    at File.initOptions (/Users/furuya/dev/rails_react_study/node_modules/babel-core/lib/transformation/file/index.js:212:65)\n    at new File (/Users/furuya/dev/rails_react_study/node_modules/babel-core/lib/transformation/file/index.js:135:24)\n    at Pipeline.transform (/Users/furuya/dev/rails_react_study/node_modules/babel-core/lib/transformation/pipeline.js:46:16)\n    at transpile (/Users/furuya/dev/rails_react_study/node_modules/babel-loader/lib/index.js:46:20)\n    at Object.module.exports (/Users/furuya/dev/rails_react_study/node_modules/babel-loader/lib/index.js:163:20)");
