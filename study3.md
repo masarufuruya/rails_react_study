@@ -139,7 +139,7 @@ module.exports = shuffleBtn
 `props`とは別のコンポーネントから受け取ることの出来る引数のようなものです。
 
 Reactでは子コンポーネントは親から渡されたpropsをそのまま表示するべきで、
-非同期な通信を行ったり、現在時刻を取得するような実行するタイミングで内容が変わる処理を子供コンポーネントで行ってはいけません。
+非同期な通信を行ったり、現在時刻を取得するような実行するタイミングで内容が変わる処理を子コンポーネントで行ってはいけません。
 
 ### app.jsxから呼び出すようにする
 
@@ -225,7 +225,7 @@ Warning: Failed prop type: The prop `onClickButton` is marked as required in `sh
 Warning: Accessing PropTypes via the main React package is deprecated. Use the prop-types package from npm instead.
 ```
 
-今までReactに同梱されていたPropTypesが、prop-typesという別のnpmに分離されるので非推奨ですという意味ですね。
+今までReactに同梱されていたPropTypesが、prop-typesという別のnpmに分離されるので非推奨ですという意味です。
 
 React16系へのメジャーアップデートまでには対応が必要なので、現在15.3系を利用しているベストティーチャー本体側も追々対応する予定ですが、勉強会では無視してOKです。
 
