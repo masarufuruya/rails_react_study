@@ -202,7 +202,7 @@ module.exports = function() {
       <ShuffleBtn/> (変更)
       <h2>シャッフル結果</h2>
       <ul style={{listStyle: "none"}}>
-        {listItems}
+        {this.listItems}
       </ul>
     </div>
   )
