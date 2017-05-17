@@ -46,7 +46,6 @@ $ npm run watch
 ```
 class SampleApp extends React.Component {
   constructor() {
-  	//以下に変更
     super()
     this.state = {
       images: []
