@@ -247,6 +247,12 @@ fetchRandomTiqavImages(callback) {
 }
 ```
 
+また冒頭でaxiosのインポート文を追加します。
+
+```
+import axios from 'axios'
+```
+
 ### componentDidMountを追加
 
 `frontend/src/javascripts/App.js`のrenderの下に以下のコードを追加します
