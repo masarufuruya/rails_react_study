@@ -4,7 +4,7 @@
 https://github.com/masarufuruya/rails_react_study/blob/master/study3.md
 
 ## 今回作るもの
-![3f356c38c43586378804c13a2985ddae.gif](https://qiita-image-store.s3.amazonaws.com/0/33823/82be4be8-d62c-6999-2863-88928d0e90c4.gif "3f356c38c43586378804c13a2985ddae.gif")
+![3f356c38c43586378804c13a2985ddae.gif](https://qiita-image-store.s3.amazonaws.com/0/33823/6804a527-09ea-b5b4-b920-6800fb7dca80.gif "3f356c38c43586378804c13a2985ddae.gif")
 
 tiqavのAPIを使ってネタ画像をランダムに取得して表示するツールを作ります。
 10秒置きに画像は再ロードされます。
@@ -331,14 +331,13 @@ componentWillUnmountはコンポーネントがDOMから削除された時に呼
 
 この状態でRailsを起動して以下のように10秒毎に画像が変わればOKです。
 
-![3f356c38c43586378804c13a2985ddae.gif](https://qiita-image-store.s3.amazonaws.com/0/33823/82be4be8-d62c-6999-2863-88928d0e90c4.gif "3f356c38c43586378804c13a2985ddae.gif")
+![3f356c38c43586378804c13a2985ddae.gif](https://qiita-image-store.s3.amazonaws.com/0/33823/6804a527-09ea-b5b4-b920-6800fb7dca80.gif "3f356c38c43586378804c13a2985ddae.gif")
 
 ## 6. 画像をクリックしたらクリップボードにコピーされるようにする
 
-clipboardというnpmを使うと簡単に実装できるので、
-自分で作ってみてください！
+clipboardというnpmを使うと簡単に実装できるので、自分で作ってみてください。
 
 ## 7. 入力したテキストで検索した結果を表示するようにする。
 
-自分で入力したテキストを元に検索結果を表示するようにしてみましょう！
+自分で入力したテキストを元に検索結果を表示するようにしてみましょう。
 
