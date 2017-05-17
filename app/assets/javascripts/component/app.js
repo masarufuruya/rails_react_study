@@ -63,15 +63,15 @@
 /******/ 	__webpack_require__.p = "";
 /******/
 /******/ 	// Load entry module and return exports
-/******/ 	return __webpack_require__(__webpack_require__.s = 87);
+/******/ 	return __webpack_require__(__webpack_require__.s = 114);
 /******/ })
 /************************************************************************/
 /******/ ({
 
-/***/ 87:
+/***/ 114:
 /***/ (function(module, exports) {
 
-throw new Error("Module build failed: Error: ENOENT: no such file or directory, open '/Users/furuya/dev/rails_react_study/.babelrc'\n    at Error (native)\n    at Object.fs.openSync (fs.js:549:18)\n    at Object.fs.readFileSync (fs.js:397:15)\n    at ConfigChainBuilder.addConfig (/Users/furuya/dev/rails_react_study/node_modules/babel-core/lib/transformation/file/options/build-config-chain.js:146:32)\n    at ConfigChainBuilder.findConfigs (/Users/furuya/dev/rails_react_study/node_modules/babel-core/lib/transformation/file/options/build-config-chain.js:96:16)\n    at buildConfigChain (/Users/furuya/dev/rails_react_study/node_modules/babel-core/lib/transformation/file/options/build-config-chain.js:61:13)\n    at OptionManager.init (/Users/furuya/dev/rails_react_study/node_modules/babel-core/lib/transformation/file/options/option-manager.js:354:58)\n    at File.initOptions (/Users/furuya/dev/rails_react_study/node_modules/babel-core/lib/transformation/file/index.js:212:65)\n    at new File (/Users/furuya/dev/rails_react_study/node_modules/babel-core/lib/transformation/file/index.js:135:24)\n    at Pipeline.transform (/Users/furuya/dev/rails_react_study/node_modules/babel-core/lib/transformation/pipeline.js:46:16)\n    at transpile (/Users/furuya/dev/rails_react_study/node_modules/babel-loader/lib/index.js:46:20)\n    at Object.module.exports (/Users/furuya/dev/rails_react_study/node_modules/babel-loader/lib/index.js:163:20)");
+throw new Error("Module build failed: SyntaxError: missing super() call in constructor\n\n\u001b[0m \u001b[90m 3 | \u001b[39m\n \u001b[90m 4 | \u001b[39m\u001b[36mclass\u001b[39m \u001b[33mSampleApp\u001b[39m \u001b[36mextends\u001b[39m \u001b[33mReact\u001b[39m\u001b[33m.\u001b[39m\u001b[33mComponent\u001b[39m {\n\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 5 | \u001b[39m  constructor() {\n \u001b[90m   | \u001b[39m  \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\n \u001b[90m 6 | \u001b[39m    console\u001b[33m.\u001b[39mlog(\u001b[32m'test'\u001b[39m)\n \u001b[90m 7 | \u001b[39m  }\n \u001b[90m 8 | \u001b[39m}\u001b[0m\n");
 
 /***/ })
 
