@@ -4,7 +4,7 @@
 https://github.com/masarufuruya/rails_react_study/blob/master/study3.md
 
 ## 今回作るもの
-https://gyazo.com/3f356c38c43586378804c13a2985ddae
+![3f356c38c43586378804c13a2985ddae.gif](https://qiita-image-store.s3.amazonaws.com/0/33823/82be4be8-d62c-6999-2863-88928d0e90c4.gif "3f356c38c43586378804c13a2985ddae.gif")
 
 tiqavのAPIを使ってネタ画像をランダムに取得して表示するツールを作ります。
 10秒置きに画像は再ロードされます。
@@ -327,7 +327,7 @@ componentWillUnmountはコンポーネントがDOMから削除された時に呼
 
 この状態でRailsを起動して以下のように10秒毎に画像が変わればOKです。
 
-https://gyazo.com/3f356c38c43586378804c13a2985ddae
+![3f356c38c43586378804c13a2985ddae.gif](https://qiita-image-store.s3.amazonaws.com/0/33823/82be4be8-d62c-6999-2863-88928d0e90c4.gif "3f356c38c43586378804c13a2985ddae.gif")
 
 ## 6. 画像をクリックしたらクリップボードにコピーされるようにする
 
