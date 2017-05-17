@@ -3,8 +3,6 @@
 ## 前回の勉強会
 https://github.com/masarufuruya/rails_react_study/blob/master/study3.md
 
-前回の勉強会で作った各自のブランチで作業してください
-
 ## 今回作るもの
 https://gyazo.com/3f356c38c43586378804c13a2985ddae
 
