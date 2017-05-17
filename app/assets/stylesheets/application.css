@@ -13,3 +13,13 @@
  *= require_tree .
  *= require_self
  */
+ #sample {
+   width: 840px;
+   margin: 0 auto;
+ }
+ .copy {
+   width: 270px;
+   height: auto;
+   margin-top: 10px;
+   margin-right: 10px;
+ }
