@@ -41,7 +41,7 @@ $ npm run watch
 
 ### stateを設定する
 
-状態としては画像の一覧があれば良いので、以下のように`frontend/src/javascripts/app.js`を書き換えます。
+状態としては画像の一覧があれば良いので、以下のように`frontend/src/javascripts/App.js`を書き換えます。
 
 ```
 class SampleApp extends React.Component {
