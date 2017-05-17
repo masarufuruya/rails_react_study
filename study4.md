@@ -1,7 +1,7 @@
 # 第四回勉強会 非同期通信とタイマーを実装しよう
 
 ## 前回の勉強会
-https://github.com/masarufuruya/rails_react_study/blob/master/study4.md
+https://github.com/masarufuruya/rails_react_study/blob/master/study3.md
 
 前回の勉強会で作った各自のブランチで作業してください
 
