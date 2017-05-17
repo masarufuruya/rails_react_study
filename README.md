@@ -13,7 +13,7 @@ Rails+WebpackでReactを使った開発を始めるための勉強用リポジ�
 * 第三回 コンポーネントを分割しよう
   * https://github.com/masarufuruya/rails_react_study/blob/master/study3.md
 
-* 第四回 非同期通信とタイマーを実装しよう (作成中)
+* 第四回 非同期通信とタイマーを実装しよう
   * https://github.com/masarufuruya/rails_react_study/blob/master/study4.md
 
 * 第五回 kaminariのページングをReact化してみよう (作成中)
