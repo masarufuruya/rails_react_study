@@ -8,7 +8,7 @@ https://github.com/masarufuruya/rails_react_study/blob/master/study1.md
 前回の勉強会で作った各自のブランチで作業してください
 
 ## 今回作るもの
-![a71f4dc9e019b67d872587c1be6d4909.gif](https://qiita-image-store.s3.amazonaws.com/0/33823/69f8ab1a-4b73-f711-9245-bbd833bec4ae.gif "a71f4dc9e019b67d872587c1be6d4909.gif")
+[![https://gyazo.com/3f356c38c43586378804c13a2985ddae](https://i.gyazo.com/3f356c38c43586378804c13a2985ddae.gif)](https://gyazo.com/3f356c38c43586378804c13a2985ddae)
 
 ## 覚えられること
 * JSX内のイベントをハンドリングする方法
