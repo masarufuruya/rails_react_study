@@ -264,8 +264,7 @@ componentDidMount() {
 }
 ```
 
-componentDidMountとはReactコンポーネントがDOMに追加された後にコールバックで呼ばれる
-Reactが用意しているメソッドです。
+componentDidMountとはReactコンポーネントがDOMに追加された後に呼ばれるメソッドです。
 
 コンポーネントのライフサイクルと呼ばれる仕組みで、以下の記事が詳しいです。
 React.jsのComponent Lifecycle - Qiita http://qiita.com/koba04/items/66e9c5be8f2e31f28461
