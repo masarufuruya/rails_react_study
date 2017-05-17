@@ -1,6 +1,10 @@
 Rails.application.routes.draw do
   root 'samples#index'
-  resources :samples, only: [:index]
+  resources :samples, only: [:index] do
+    collection do
+      get :fetch_random_tiqav_images
+    end
+  end
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
 
