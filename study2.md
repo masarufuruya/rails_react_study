@@ -167,8 +167,6 @@ https://facebook.github.io/react/docs/dom-elements.html
 
 人数分の画像が表示されればOKです
 
-![RailsReactStudy.png](https://qiita-image-store.s3.amazonaws.com/0/33823/e36dd675-dcf3-70a6-65f8-81cdd1257040.png "RailsReactStudy.png")
-
 ## シャッフルした結果でStateを更新する
 
 `getRandomMember`メソッドを追加し、`onClickButton`を以下のコードに書き換える
@@ -215,4 +213,3 @@ render() {
 
 最終的に以下の動作をしていれば完成です
 
-![a71f4dc9e019b67d872587c1be6d4909.gif](https://qiita-image-store.s3.amazonaws.com/0/33823/69f8ab1a-4b73-f711-9245-bbd833bec4ae.gif "a71f4dc9e019b67d872587c1be6d4909.gif")
